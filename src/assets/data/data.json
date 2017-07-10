@@ -1,0 +1,922 @@
+{
+	"skills": [{
+			"name": "HTML",
+			"id": 1
+		},
+		{
+			"name": "Javascript",
+			"id": 2
+		},
+		{
+			"name": "CSS",
+			"id": 3
+		},
+		{
+			"name": "jQuery",
+			"id": 4
+		},
+		{
+			"name": "SASS",
+			"id": 5
+		},
+		{
+			"name": "GRUNT",
+			"id": 6
+		},
+		{
+			"name": "Gulp",
+			"id": 7
+		},
+		{
+			"name": "Webpack",
+			"id": 8
+		},
+		{
+			"name": "LESS",
+			"id": 9
+		},
+		{
+			"name": "Angularjs",
+			"id": 10
+		},
+		{
+			"name": "Angular 2/Angular 4",
+			"id": 11
+		},
+		{
+			"name": "React.js",
+			"id": 12
+		},
+		{
+			"name": "ES6",
+			"id": 13
+		},
+		{
+			"name": "Typescript",
+			"id": 14
+		},
+		{
+			"name": "Node.js",
+			"id": 15
+		}
+	],
+	"location": [{
+			"name": "Gurgaon",
+			"id": 1
+		},
+		{
+			"name": "Noida",
+			"id": 2
+		},
+		{
+			"name": "Bengaluru",
+			"id": 3
+		},
+		{
+			"name": "Hyderabad",
+			"id": 4
+		}
+	],
+	"level": [{
+			"name": "Beginner",
+			"id": 1
+		},
+		{
+			"name": "Intermediate",
+			"id": 2
+		},
+		{
+			"name": "Advanced",
+			"id": 3
+		}
+	],
+	"emp": [{
+			"name": "Subroto Mukherjee",
+			"id": 1,
+			"supervisor": 2,
+			"desig": "Manager",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				},
+				{
+					"id": 11,
+					"level": 3
+				},
+				{
+					"id": 12,
+					"level": 3
+				},
+				{
+					"id": 13,
+					"level": 3
+				},
+				{
+					"id": 14,
+					"level": 3
+				},
+				{
+					"id": 15,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Jim Morrison",
+			"id": 2,
+			"supervisor": 0,
+			"desig": "Vice President",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				},
+				{
+					"id": 11,
+					"level": 3
+				},
+				{
+					"id": 12,
+					"level": 3
+				},
+				{
+					"id": 13,
+					"level": 3
+				},
+				{
+					"id": 14,
+					"level": 3
+				},
+				{
+					"id": 15,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Chris Byrd",
+			"id": 3,
+			"supervisor": 2,
+			"desig": "Sr Manager",
+			"location": 3,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 1
+				},
+				{
+					"id": 3,
+					"level": 2
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 1
+				},
+				{
+					"id": 6,
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Kapil Singh",
+			"id": 4,
+			"supervisor": 1,
+			"desig": "Sr Associate L1",
+			"location": 2,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Ankit Singhal",
+			"id": 5,
+			"supervisor": 3,
+			"desig": "Sr Manager",
+			"location": 2,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				},
+				{
+					"id": 11,
+					"level": 3
+				},
+				{
+					"id": 12,
+					"level": 3
+				},
+				{
+					"id": 13,
+					"level": 3
+				},
+				{
+					"id": 14,
+					"level": 3
+				},
+				{
+					"id": 15,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Rohit Khandelwal",
+			"id": 6,
+			"supervisor": 1,
+			"desig": "Sr Associate L1",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Sourabh Upadhyay",
+			"id": 7,
+			"supervisor": 5,
+			"desig": "Manager",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Gaurav Gilhotra",
+			"id": 8,
+			"supervisor": 7,
+			"desig": "Software Engineer",
+			"location": 2,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 2
+				},
+				{
+					"id": 5,
+					"level": 1
+				},
+				{
+					"id": 6,
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Jeetendra",
+			"id": 9,
+			"supervisor": 5,
+			"desig": "Software Engineer",
+			"location": 4,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 1
+				},
+				{
+					"id": 5,
+					"level": 2
+				},
+				{
+					"id": 6,
+					"level": 2
+				}
+			]
+		},
+		{
+			"name": "Manoj Varma",
+			"id": 10,
+			"supervisor": 0,
+			"desig": "Sr Associate L2",
+			"location": 4,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Rishabh Jain",
+			"id": 11,
+			"supervisor": 7,
+			"desig": "Sr Associate L1",
+			"location": 3,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 2
+				}
+			]
+		},
+		{
+			"name": "Md Abid Akhtar",
+			"id": 12,
+			"supervisor": 3,
+			"desig": "Sr Associate L2",
+			"location": 2,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Nand Kishore",
+			"id": 13,
+			"supervisor": 5,
+			"desig": "Manager",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				},
+				{
+					"id": 11,
+					"level": 3
+				},
+				{
+					"id": 12,
+					"level": 3
+				},
+				{
+					"id": 13,
+					"level": 1
+				}
+			]
+		},
+		{
+			"name": "Saurabh Tripathi",
+			"id": 14,
+			"supervisor": 1,
+			"desig": "Software Engineer",
+			"location": 4,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Mitesh Jain",
+			"id": 15,
+			"supervisor": 5,
+			"desig": "Software Engineer",
+			"location": 4,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Gurpreet Singh",
+			"id": 16,
+			"supervisor": 5,
+			"desig": "Manager",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				},
+				{
+					"id": 11,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Lokesh Pandey",
+			"id": 17,
+			"supervisor": 3,
+			"desig": "Manager",
+			"location": 1,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				},
+				{
+					"id": 8,
+					"level": 3
+				},
+				{
+					"id": 9,
+					"level": 3
+				},
+				{
+					"id": 10,
+					"level": 3
+				},
+				{
+					"id": 11,
+					"level": 3
+				},
+				{
+					"id": 12,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Rohit Dev",
+			"id": 19,
+			"supervisor": 1,
+			"desig": "Sr Associate L2",
+			"location": 2,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 3
+				},
+				{
+					"id": 5,
+					"level": 3
+				},
+				{
+					"id": 6,
+					"level": 3
+				},
+				{
+					"id": 7,
+					"level": 3
+				}
+			]
+		},
+		{
+			"name": "Geeta Chaddha",
+			"id": 20,
+			"supervisor": 5,
+			"desig": "Sr Associate L1",
+			"location": 3,
+			"skills": [{
+					"id": 1,
+					"level": 3
+				},
+				{
+					"id": 2,
+					"level": 3
+				},
+				{
+					"id": 3,
+					"level": 3
+				},
+				{
+					"id": 4,
+					"level": 1
+				},
+				{
+					"id": 5,
+					"level": 2
+				}
+			]
+		}
+	]
+}

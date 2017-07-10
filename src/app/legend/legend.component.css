@@ -1,0 +1,49 @@
+.legend-box {
+    background: #333;
+    border: 3px solid rgba(250, 250, 250, 0.4);
+    border-right: none;
+    color: #FFF;
+    min-width: 50px;
+    padding: 50px;
+    padding-left: 20px;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    font-size: 1.4rem;
+    transition: left, 0.5s cubic-bezier(.53,.06,.42,.85); 
+}
+
+.legend-box li {
+    margin-top: 1.5rem;
+}
+
+.legend-icon {
+    border: 1px solid #000;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+}
+
+.btn {
+    background: #333;
+    border: 2px solid rgba(250, 250, 250, 0.4);
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 230px;
+    height: 40px;
+    color: #FFF;
+    left: -138px;
+    top: 92px;
+    padding-top: 8px;
+    text-decoration: none;
+    text-align: center;
+}

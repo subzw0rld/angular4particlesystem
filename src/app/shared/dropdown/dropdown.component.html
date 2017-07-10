@@ -1,0 +1,7 @@
+<div class="custom-select hide">
+  <span class="select-content"></span>
+  <a href="javascript:void(0);" class="select-toggle" (click)="toggleDropdown($event)"></a>
+  <ul class="dropdown">
+    <li *ngFor="let location of locationData" (click)="toggleDropdown($event)">{{location.name}}</li>
+  </ul>
+</div>

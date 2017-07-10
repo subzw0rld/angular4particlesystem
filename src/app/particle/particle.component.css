@@ -1,0 +1,75 @@
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+  min-width: 10px;
+  min-height: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(255, 255, 255, 0.75);
+  /*transition: left,top, 3.5s cubic-bezier(.53,.06,.42,.85);*/
+}
+
+.particle span {
+  font-size: 1.5rem;
+}
+
+img {
+  width: 50%;
+  background: #FFF;
+  border-radius: 50%;
+  margin-top: 25%;
+}
+
+.info-view {
+  color: #333;
+  font-size: 1.2rem;
+  padding: 30px;
+  min-width: 200px;
+  height: 230px;
+  background: rgba(250, 250, 250, 1);
+  border: 1px solid #FFF;
+  text-align: left;
+  position: absolute;
+  top: 100%;
+  left: -50%;
+  display: none;
+}
+
+.show .info-view {
+  display: block;
+}
+
+.info-view ul {
+  margin: 0;
+  padding: 0;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.coords {
+  border-radius: 8px;
+  background: #333;
+  color: #FFF;
+  display: inline-block;
+  font-size: 1rem !important;
+  min-width: 60px;
+  position: absolute;
+  top: -30px;
+}
+
+.info-view ul li {
+  margin-top: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.btn {
+  background: #262D7F;
+  border: 1px solid #262D7F;
+  color: #FFF;
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+  margin: 10px auto;
+}

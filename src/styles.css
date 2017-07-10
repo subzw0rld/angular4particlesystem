@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    font-size: 10px;
+}
+body {
+    font-family: 'Bellefair', serif;
+    margin: 0;
+    background: #1A0040;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    font-family: Arial;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.pulse {
+    animation: mymove 0.5s 8;
+}
+
+@keyframes mymove {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.form-group {
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    height: 50px;
+    width: 180px;
+    border: 1px solid rgba(51, 51, 51, 0.5);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+
+/* start commented backslash hack \*/
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.btn {
+    border-radius: 2px;
+    display: block;
+    width: 80px;
+    padding: 10px;
+    font-size: 1.3rem;
+}

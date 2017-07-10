@@ -1,0 +1,66 @@
+<div class="panel-body collapse">
+  <form class="clearfix" (ngSubmit) = "onSubmit($event)" #empForm="ngForm">
+    <div class="form-group">
+      <label for="eName">Employee Name</label>
+      <input id="eName" type="text" required placeholder="Employee Name" #nameInput>
+      <label for="desig">Designation</label>
+      <input id="desig" type="text" required placeholder="Designation" #designationInput>
+    </div>
+    
+    <div class="form-group">
+      <label for="sup">Supervisor</label>
+      <!--<input id="sup" type="text" required placeholder="Supervisor" #supervisorInput>-->
+      <div class="custom-select hide">
+        <span class="select-content"></span>
+        <a href="javascript:void(0);" class="select-toggle" (click)="toggleDropdown($event)"></a>
+        <ul class="dropdown">
+          <li *ngFor = "let supervisor of superVisorArr" ngClass="{{supervisor.id}}">
+            <input type="radio" name="supervisor" id="{{supervisor.name}}_{{supervisor.id}}" value="{{supervisor.id}}"/>
+            <label for="{{supervisor.name}}_{{supervisor.id}}">{{supervisor.name}}</label>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="btn btn-primary" (click)="toggleDropdown($event); updateData($event, 'supervisor')">Done</a>
+          </li>
+        </ul>
+      </div>
+      <label>Location</label>
+      <div class="custom-select hide">
+        <span class="select-content"></span>
+        <a href="javascript:void(0);" class="select-toggle" (click)="toggleDropdown($event)"></a>
+        <ul class="dropdown">
+          <li *ngFor = "let location of locationData" ngClass="{{location.id}}">
+            <input type="radio" name="location" id="{{location.name}}_{{location.id}}" value="{{location.id}}"/>
+            <label for="{{location.name}}_{{location.id}}">{{location.name}}</label>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="btn btn-primary" (click)="toggleDropdown($event); updateData($event, 'location')">Done</a>
+          </li>
+        </ul>
+      </div>
+      <!--<app-dropdown (customEvt)="onDataReceived($event)"></app-dropdown>-->
+    </div>
+    
+    <div class="form-group">
+      <label>Skills</label>
+      <div class="custom-select hide">
+        <span class="select-content">{{selectedOption}}</span>
+        <a href="javascript:void(0);" class="select-toggle"  (click)="toggleDropdown($event)"></a>
+        <ul class="dropdown">
+          <li *ngFor="let skill of skillData; let i=index"  ngClass="{{skill.id}}">
+            <input type="checkbox" id="{{skill.name}}_{{skill.id}}" value="{{skill.id}}" />
+            <label for="{{skill.name}}_{{skill.id}}">{{skill.name}}</label>
+            <span *ngFor="let levels of levelData" >
+              <input type="radio" name="{{i}}" id="{{levels.name}}{{i}}_{{levels.id}}" value="{{levels.id}}"/>
+              <label for="{{levels.name}}{{i}}_{{levels.id}}">{{levels.name}}</label>
+            </span>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="btn btn-primary" (click)="toggleDropdown($event); updateData($event, 'skill')">Done</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-submit">Submit</button>
+  </form>
+  <a href="javascript:void(0)" class="toggle-panel" (click)="togglePanel()"></a>
+</div>

@@ -1,0 +1,139 @@
+.panel-body {
+    background: #CCCBC9;
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    transition: top, 0.5s cubic-bezier(.53,.06,.42,.85); 
+}
+.toggle-panel {
+    background: url('/assets/images/dropdown.png') no-repeat;
+    background-size: 45px;
+    background-position: center bottom;
+    border-radius: 100%;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    bottom:50px;
+    width: 80px;
+    height: 80px;
+    background-color: #CCCBC9;
+    z-index: -10;
+}
+
+.panel-body.collapse {
+    top: -240px;
+}
+
+.panel-body form {
+ display: block;
+ margin: 0 auto;
+ width: 50%;   
+}
+
+.custom-select {
+    /*border: 1px solid rgba(51, 51, 51, 0.5);
+    border-radius: 4px;*/
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.custom-select span {
+    background: #CCCBC9;
+    display: inline-block;
+    border: 2px solid #FFF;
+    width: 75%;
+    height: 50px;
+    font-size: 3.2rem;
+    box-sizing: border-box;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.select-toggle {
+    background: #FFF;
+    display: inline-block;
+    border: 2px solid #FFF;
+    width: 25%;
+    margin-left: -3px;
+    height: 50px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.select-toggle:before {
+    content: ' ';
+    background: url('/assets/images/dropdown.png') no-repeat;
+    background-size: cover;
+    display: block;
+    height: 40px;
+}
+
+.hide.custom-select ul  {
+    display: none;
+}
+
+.custom-select ul {
+    min-width: 180px;
+    border: 1px solid rgba(51, 51, 51, 0.5);
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 1.2rem;
+    margin-top: -3px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.custom-select ul li {
+    padding: 3px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+.custom-select ul li label {
+    display: inline;
+}
+
+.custom-select ul li:last-child {
+    border-bottom: none;
+}
+
+.custom-select ul li:hover {
+    background: #7F7F7F;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.custom-select ul li:last-child:hover {
+    background: transparent;
+    color: inherit;
+    cursor: default;
+}
+
+.btn-submit {
+    background: #CC1F14;
+}
+
+.btn-submit, .btn-primary  {
+    border: 1px solid rgba(51, 51, 51, 0.5);
+    color: #FFF;
+    margin: 10px auto;
+    width: 40%;
+}
+
+.btn-primary {
+    background: #5068CC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.show {
+    z-index: 100;
+}

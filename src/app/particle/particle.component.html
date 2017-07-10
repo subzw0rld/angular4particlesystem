@@ -1,0 +1,19 @@
+<div class='particle' [ngClass]="{pulse:pulse}" (click)="onParticleClicked()" [ngStyle]="{'top': randomPositionY, 'left': randomPositionX, 'background':locationColor, 'width':size, 'height': size}" appToggleInfoView>
+  <!--<span class="coords">
+    <i>x: {{randomPositionX}}</i>
+    <br/>
+    <i>y: {{randomPositionY}}</i>
+  </span>-->
+  <img src='/assets/images/default.png' />
+  <div class="info-view">
+    <h1>Name: {{particle.name}}</h1>
+    <h2>Designation {{particle.desig}}</h2>
+    <p><span>Skills</span></p>
+    <ul>
+      <li *ngFor = "let skill of skillArr">
+          {{skill.skill}} - {{skill.level}}
+      </li>
+    </ul>
+    <button class="btn" (click)="showSupervisor()">Show Supervisor</button>
+  </div>
+</div>
