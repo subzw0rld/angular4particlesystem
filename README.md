@@ -34,4 +34,4 @@ I will replace the info-panel with a modal window instead, however I will not ov
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
