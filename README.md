@@ -1,28 +1,41 @@
-# ParticleSystem
+# ngParticleSystem
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+A simulation of Particle System developed using **Angular 4**.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone the repository (or download the zip in case you're not aware of Git cloning) in your local drive and you'll get a copy of 'particle-system' folder in your drive.
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Angular CLI for running the project. [Click here to learn more about Angular CLI] (https://cli.angular.io/)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Installing
 
-## Running unit tests
+* Run npm-install to install the dependencies
+* Once done run *'ng serve'* and you can access the application using http://localhost:4200/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## About Particle System
 
-## Running end-to-end tests
+Particle System is the name I have given to my simulation that provides an interactive data visualization that is governed by the laws of physics. The particles in my example depict employees in a department (can be expanded to organization level as well), that float around within the confinement of its environment, the size of the particle is determined by the designation of the employees. The color of the particle denotes their geographical location. Once a particle is clicked it stops moving and a panel (info-panel) opens that displays data about the particle such as the Name, Designation, their skillset and their level of experience (Beginner, Intermediate or Advanced). The info-panel also has a button called **"Show Supervisor"** that when clicked initiates a pulse on the particle that is the Supervisor of the clicked particle (the particle pulsates 8 times and stops).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+The component architecture is highly decoupled and all the configuration like the size of the particle, color of the particle etc. is fed by an external config file.
 
-## Further help
+### WIP
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Working on the interface through which the user can enter details about a new particle they wish to enter in the system.
+
+### Future Release
+
+I will replace the info-panel with a modal window instead, however I will not overwrite this version, instead I would create a new repository for the future release.
+
+## Authors
+
+* **Subroto Mukherjee** - [Subzw0rld](https://github.com/subzw0rld),
+[Linkedin](https://www.linkedin.com/in/subrotomukherjee/)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/subzw0rld/ngParticleSystem/blob/master/LICENSE) file for details
