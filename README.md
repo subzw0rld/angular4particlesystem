@@ -22,10 +22,6 @@ Particle System is the name I have given to my simulation that provides an inter
 
 The component architecture is highly decoupled and all the configuration like the size of the particle, color of the particle etc. is fed by an external config file.
 
-### WIP
-
-Working on the interface through which the user can enter details about a new particle they wish to enter in the system.
-
 ### Future Release
 
 I will replace the info-panel with a modal window instead, however I will not overwrite this version, instead I would create a new repository for the future release.
